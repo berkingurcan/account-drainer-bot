@@ -10,6 +10,12 @@ npx hardhat compile
 npx hardhat clean
 npx hardhat test
 npx hardhat node
-node scripts/sample-script.js
+node scripts/drain.js
 npx hardhat help
+```
+
+In order to run you should create .env file and add 
+```shell
+NETWORK_KEY = YOUR_ETHEREUM_API_PROVIDER_KEY
+KEY = 0xprivatekey1,0xprivatekey2,0xprivatekey3
 ```
